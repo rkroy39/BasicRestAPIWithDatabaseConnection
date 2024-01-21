@@ -21,7 +21,7 @@ public class TestController {
 	StateDataRepo stateDataRepo;
 	@Autowired
 	DistrictDataRepo districtDataRepo;
-	@GetMapping("/check")
+	@GetMapping("/")
 	public String checkMethod() {
 		
 		return "hello";
